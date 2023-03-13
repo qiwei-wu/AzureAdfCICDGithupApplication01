@@ -1,0 +1,17 @@
+{
+	"name": "HiveObject1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HDI_Hadoop_Hive",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "HiveObject",
+		"schema": [],
+		"typeProperties": {
+			"schema": "eagle",
+			"table": "ods_bl_store"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

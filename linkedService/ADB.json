@@ -1,0 +1,14 @@
+{
+	"name": "ADB",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDatabricks",
+		"typeProperties": {
+			"domain": "https://adb-2990504865315380.0.databricks.azure.cn",
+			"authentication": "MSI",
+			"workspaceResourceId": "/subscriptions/3ac482b6-893e-4750-b5b8-0e94a3bd522c/resourceGroups/nchn-st-dep-dl-rgp/providers/Microsoft.Databricks/workspaces/nchn-st-dep-001-adb",
+			"existingClusterId": "0512-052946-mnniya23"
+		}
+	}
+}
